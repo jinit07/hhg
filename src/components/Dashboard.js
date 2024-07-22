@@ -11,7 +11,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const loadBlockchainData = async () => {
-      const web3 = new Web3(Web3.givenProvider || "http://localhost:9545");
+      const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
       const networkId = await web3.eth.net.getId();
       const networkData = LendingPlatform.networks[networkId];
 
