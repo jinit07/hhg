@@ -1,0 +1,36 @@
+/* BorrowMoney.css */
+.borrow-money h2 {
+  color: #333;
+}
+
+.borrow-money form div {
+  margin-bottom: 10px;
+}
+
+.borrow-money form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.borrow-money form input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.borrow-money button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.borrow-money button:hover {
+  background-color: darkorange;
+}
