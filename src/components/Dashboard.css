@@ -1,17 +1,113 @@
-/* Dashboard.css */
-.dashboard h2 {
-  color: #333;
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: url("https://docs.coredao.org/assets/images/core-header-35899cc1c6aef1e752f6689245e0692a.png")
+    no-repeat center center fixed; /* Background image URL */
+  background-size: cover; /* Cover the entire page */
+  filter: brightness(45%); /* Lighten the background image */
+  text-align: center;
+  color: #d1d3d4; /* Light blue text */
 }
 
-.dashboard ul {
+.dashboard {
+  background: rgb(
+    250,
+    245,
+    245
+  ); /* Darker grey background with more opacity for contrast */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.3); /* Darker shadow for a more pronounced effect */
+  width: 80%; /* Adjust width as needed */
+  max-width: 1200px; /* Maximum width for larger screens */
+  position: relative; /* Ensure proper positioning of the background image */
+  z-index: 10; /* Ensure it sits above the background image */
+}
+.dashboard p,
+.dashboard ul li {
+  color: #000000; /* Black color for paragraphs and list items */
+}
+.dashboard h2 {
+  color: #080808; /* Light grey color for headings */
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.dashboard .cards {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  margin-bottom: 30px;
+}
+
+.dashboard .card {
+  background-color: #444444; /* Darker grey background for cards */
+  padding: 20px;
+  border-radius: 10px; /* Slightly reduced border-radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Deeper shadow for a more pronounced effect */
+  color: #070707; /* White text color */
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+}
+
+.dashboard .card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6); /* Darker shadow on hover */
+}
+
+.dashboard .transactions,
+.dashboard .graph {
+  background-color: #444444; /* Dark grey background for sections */
+  padding: 20px;
+  border-radius: 10px; /* Match border-radius with cards */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+  margin-top: 20px;
+}
+
+/* Toggle Button */
+.toggle-button {
+  background-color: #6e6e6e; /* Dark grey background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 20px; /* Add some space below the button */
+}
+
+.toggle-button:hover {
+  background-color: #5a5a5a; /* Slightly darker grey background on hover */
+  transform: scale(1.05); /* Slightly scale up on hover for a 3D effect */
+}
+
+.transaction-list {
   list-style: none;
   padding: 0;
 }
 
-.dashboard li {
-  background-color: white;
-  margin: 10px 0;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f2eeee; /* Darker border color */
+}
+
+.transaction-list li span {
+  color: #eaeef3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #d0e8f2;
+}
+
+footer a {
+  color: #39a0ed;
+  margin: 0 10px;
 }

@@ -1,46 +1,84 @@
-.lend-money {
-  padding: 20px;
-  max-width: 400px;
-  margin: 0 auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.lend-money h2 {
+/* Full-page background */
+body::before {
+  display: flex;
+  content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: url("https://docs.coredao.org/assets/images/core-header-35899cc1c6aef1e752f6689245e0692a.png")
+    no-repeat center center fixed; /* Add your background image URL */
+  background-size: cover; /* Cover the entire page */
+  filter: brightness(40%); /* Lighten the background image */
   text-align: center;
+  color: #0a2744; /* Light blue text */
 }
 
+/* Lend Money Component */
+.lend-money {
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent white background for contrast */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for 3D effect */
+  backdrop-filter: blur(10px); /* Increased blur for more depth */
+  position: relative;
+  z-index: 1; /* Ensure it sits above the background image */
+}
+
+/* Header within Lend Money Component */
+.lend-money h2 {
+  color: #ffffff; /* White color for better contrast */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Darker text shadow for better visibility */
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+/* Form elements */
 .lend-money form div {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.lend-money label {
+.lend-money form label {
   display: block;
   margin-bottom: 5px;
+  color: #ffffff; /* White color for better contrast against the background */
 }
 
-.lend-money input {
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
+.lend-money form input {
+  width: calc(100% - 22px);
+  padding: 12px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px; /* Increased border-radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow to create a lifted effect */
+  background-color: #ffffff; /* Solid background for inputs */
 }
 
-.lend-money .error {
-  color: red;
-  margin-bottom: 10px;
+.lend-money form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on focus */
 }
 
+/* Submit button */
 .lend-money button {
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
+  background-color: #cccccc; /* Light gray background */
+  color: #333333; /* Darker text color */
+  padding: 12px 25px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px; /* Rounded corners for a softer look */
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow to create a lifted effect */
 }
 
-.lend-money button:disabled {
-  background-color: #cccccc;
+.lend-money button:hover {
+  background-color: #b3b3b3; /* Slightly darker gray on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
 }

@@ -73,7 +73,7 @@ const BorrowMoney = () => {
         <div>
           <label>Interest Rate (%): </label>
           <input
-            type="text"
+            type="number"
             value={interestRate}
             onChange={(e) => setInterestRate(e.target.value)}
           />

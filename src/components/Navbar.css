@@ -1,28 +1,116 @@
-/* Navbar.css */
 nav {
-  width: 200px;
-  height: 100vh;
-  background: linear-gradient(to bottom, orange, white, green);
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  align-items: center;
+  padding: 20px 40px;
+  background: url("https://docs.coredao.org/assets/images/core-header-35899cc1c6aef1e752f6689245e0692a.png")
+    no-repeat center center fixed; /* Add your background image URL */
+  background-size: cover; /* Cover the entire page */
+  background: linear-gradient(
+    to right,
+    #2e0c0c80,
+    /* Gradient direction from left to right */ #c0b1b1,
+    /* Light shade */ #2e0c0c80,
+    /* Dark red with some transparency */ #080000 /* Very dark red */
+  );
+  /* Deep navy blue gradient background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a more pronounced 3D effect */
+  position: relative; /* Ensure proper stacking of elements */
+  z-index: 1; /* Ensure it sits above other content */
+}
+
+nav .logo {
+  margin-right: auto; /* Align logo to the left */
+  display: float;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 90px; /* Adjust the height as needed */
+  margin-right: 90px; /* Space between the logo and the rest of the nav items */
 }
 
 nav ul {
   list-style: none;
+  margin: 0;
   padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
-nav li {
-  margin: 20px 0;
+nav ul li {
+  position: relative;
 }
 
-nav a {
+nav ul li a {
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
+  color: #ffffff; /* White text color */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em; /* Slightly larger font size for better readability */
+  background: #000000; /* Black background for text boxes */
+  padding: 10px 40px; /* Add some padding for better visual appeal */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, text-shadow 0.3s; /* Smooth transition effects */
 }
 
-nav a:hover {
-  color: #555;
+nav ul li a:hover {
+  background: #333333; /* Slightly lighter black on hover */
+  color: #ffffff; /* Keep text color white on hover */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Light shadow effect on hover */
+}
+
+nav ul li .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0a2540; /* Darker background for dropdown */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow for dropdown */
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+nav ul li .dropdown a {
+  display: block;
+  color: #ffffff; /* Light blue color for dropdown links */
+  transition: color 0.3s;
+}
+
+nav ul li .dropdown a:hover {
+  color: #39a0ed; /* Bright blue color for hover */
+}
+
+/* Search */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  background: #1a4268; /* Darker background for search input */
+  color: #fff;
+}
+
+.search button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background: #39a0ed; /* Bright blue background for button */
+  color: #000000;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for search button */
+}
+
+.search button:hover {
+  background: #1e90ff; /* Slightly brighter blue on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
 }

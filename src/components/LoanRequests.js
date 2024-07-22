@@ -32,7 +32,7 @@ const LoanRequests = () => {
           total += amountInEther;
           totalInterestRate += parseFloat(request.interestRate);
           console.log(
-            `Request: ${amountInEther} ETH @ ${request.interestRate.value}%`
+            `Request: ${amountInEther} ETH @ ${request.interestRate}%`
           ); // Debugging line
         });
 
@@ -125,7 +125,7 @@ const LoanRequests = () => {
           <p>
             Amount: {web3.utils.fromWei(request.amount.toString(), "ether")} ETH
           </p>
-          <p>Interest Rate: {request.interestRate.value}%</p>
+          <p>Interest Rate: {request.interestRate}%</p>
           <button onClick={() => fundLoan(request.id)}>Fund Loan</button>
         </div>
       ))}
