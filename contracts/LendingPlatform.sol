@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+//jdkkjsdbjkdv nkjs cnk.jdsncikd
 pragma solidity ^0.8.0;
 
 contract LendingPlatform {
