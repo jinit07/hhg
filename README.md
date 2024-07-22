@@ -35,3 +35,9 @@ Lend Money
 
 ![image](https://github.com/user-attachments/assets/50c08b59-918e-4b61-9c7f-0632869e6721)
 
+![image](https://github.com/user-attachments/assets/13403319-2f93-4704-b85f-164af444f76a)
+
+![image](https://github.com/user-attachments/assets/bd03a45f-8f33-43c7-90d2-11807a285210)
+
+![image](https://github.com/user-attachments/assets/02c61447-c9fb-489e-a12a-f1653e1870c6)
+![image](https://github.com/user-attachments/assets/512ccb7f-bb62-4f93-9d4d-132c01111d87)
