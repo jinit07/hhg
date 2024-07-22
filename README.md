@@ -3,7 +3,11 @@ Steps to Run:
                     2.migrate --reset --network development
 2)npm start
 
-
+Metamask:
+Development
+http://127.0.0.1:9545
+1337
+ETH
 
 Initial DashBoard 
 
