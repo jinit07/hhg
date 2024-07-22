@@ -1,53 +1,32 @@
 /* App.css */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
+  background-color: #e3f2fd; /* Light blue background */
+  color: #333;
 }
 
 .App {
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-nav {
-  width: 200px;
-  height: 100vh;
-  background: linear-gradient(to bottom, orange, white, green);
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav li {
-  margin: 20px 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #555;
-}
-
-.content {
+main {
   flex: 1;
   padding: 20px;
-  background-color: #f9f9f9;
 }
 
 h2 {
-  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #1a237e; /* Dark blue text */
 }
 
 button {
-  background-color: orange;
+  background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -58,7 +37,7 @@ button {
 }
 
 button:hover {
-  background-color: darkorange;
+  background-color: #0056b3;
 }
 
 form div {
@@ -89,4 +68,36 @@ li {
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a237e;
+  color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #ff9800; /* Orange color for links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 40px;
+  background-color: #1a237e;
+  color: #fff;
+}
+
+.dark-mode-toggle input {
+  margin-left: 10px;
 }
