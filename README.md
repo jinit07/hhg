@@ -1,3 +1,10 @@
+Steps to Run:
+1)Truffle Develop : 1.compile
+                    2.migrate --reset --network development
+2)npm start
+
+
+
 Initial DashBoard 
 
 ![image](https://github.com/user-attachments/assets/88ffd02a-a391-4bdd-abf4-c0491e8bc38c)
