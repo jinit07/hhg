@@ -20,9 +20,13 @@ clean and asthetics  UI to give a better understanding to the user  who are acce
 
 
 
-The user requests to borrow Money
+## The user requests to borrow Money
+the page  allows user to borrow the money by enterring the specified information given by the user  like the amount of interest and money and also 
+a unique identifier which would allow one to make necessary borrow requests from the user over the platform. this also provides a UI which is 
+user friendly and easy to use  and can be effciently used by anyone to make borrow requests
 
-![image](https://github.com/user-attachments/assets/6813ef84-34ef-4924-80ec-1a2e8cecb32f)
+![image](https://github.com/user-attachments/assets/ec551399-eb30-41a0-9af7-05be0194877e)
+
 
 Transaction is being verified by Metamask
 
