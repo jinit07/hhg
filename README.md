@@ -1,6 +1,8 @@
 Steps to Run:
+
 1)Truffle Develop : 1.compile
                     2.migrate --reset --network development
+                    
 2)npm start
 
 Metamask:
