@@ -28,10 +28,13 @@ user friendly and easy to use  and can be effciently used by anyone to make borr
 ![image](https://github.com/user-attachments/assets/3231724b-d6d2-4424-adb6-19ac83c89a16)
 
 
-Transaction is being verified by Metamask
+## Transaction is being verified by Metamask
+After the button being pressed for the borrowing the amount of money by the end of
+a user  the metamask wallet would open of the user which would be used to verify every
+criteria of the loan information and then after confirmation of every details one then can make sure 
+the transactions are then done and committed 
+![image](https://github.com/user-attachments/assets/49dbc3da-d3d9-49b8-b4e5-5a11a3a61882)
 
-
-![image](https://github.com/user-attachments/assets/1564dad7-cc3a-4c59-aad4-c865b8ad8eb0)
 
 Transaction is being verified by Metamask
 
