@@ -25,7 +25,7 @@ the page  allows user to borrow the money by enterring the specified information
 a unique identifier which would allow one to make necessary borrow requests from the user over the platform. this also provides a UI which is 
 user friendly and easy to use  and can be effciently used by anyone to make borrow requests
 
-![image](https://github.com/user-attachments/assets/ec551399-eb30-41a0-9af7-05be0194877e)
+![image](https://github.com/user-attachments/assets/3231724b-d6d2-4424-adb6-19ac83c89a16)
 
 
 Transaction is being verified by Metamask
