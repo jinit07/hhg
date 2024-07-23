@@ -11,7 +11,8 @@ http://127.0.0.1:9545
 1337
 ETH
 
-Initial DashBoard 
+## Initial DashBoard
+
 the intial dashboard serves as the way one could have idea of all info regarding the active borrow requests and also the lending offers provided over the network with a 
 clean and asthetics  UI to give a better understanding to the user  who are accessing the platform to get the transactions and provide tranasparent infor in a  effcient manner
 
