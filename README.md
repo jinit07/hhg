@@ -42,9 +42,14 @@ all neccessary checks confirmed by the metamask a notification of alert would be
 when the transaction is created that the transaction has been done successfully.
 ![image](https://github.com/user-attachments/assets/92758ae2-68de-4d1a-b1bc-b0cf350235c3)
 
-Final Dashboard with the request to borrow money
+## Final Dashboard with the request to borrow money
+once the transaction is intiated and the user has been provided with the notification that
+the transaction is successful then the borrow request would be displayed over the dashboard 
+and made visible to the platform user which then one can lend the given request to satisfy 
+the borrowers need with the same amount and interest rate by issuing it so that a borrower 
+can accept the offer from the another lender or any lender which suits him the best 
+![image](https://github.com/user-attachments/assets/c41f501d-13f0-4e11-a3f4-8288aa1ebf7b)
 
-![image](https://github.com/user-attachments/assets/69019fe6-6bce-419a-af23-e11a1cb1db66)
 
 Lend Money
 
