@@ -93,11 +93,6 @@ After MetaMask verifies the transaction, a notification will alert the user that
 
 ![Transaction Confirmation](https://github.com/user-attachments/assets/92758ae2-68de-4d1a-b1bc-b0cf350235c3)
 
-### Final Dashboard with Borrow Requests
-
-Once the transaction is initiated and confirmed, the borrow request will be displayed on the dashboard, visible to all users on the platform. Lenders can then choose to fulfill the borrower's request based on the provided details.
-
-![Final Dashboard](https://github.com/user-attachments/assets/c41f501d-13f0-4e11-a3f4-8288aa1ebf7b)
 
 ### Lend Money
 
