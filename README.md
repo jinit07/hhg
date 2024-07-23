@@ -36,9 +36,11 @@ the transactions are then done and committed
 ![image](https://github.com/user-attachments/assets/49dbc3da-d3d9-49b8-b4e5-5a11a3a61882)
 
 
-Transaction is being verified by Metamask
-
-![image](https://github.com/user-attachments/assets/c71e52bb-b577-4699-869d-0600bfa40300)
+## Transaction is  verified by Metamask
+After the transaction is verfied with all sufficient data and also with the 
+all neccessary checks confirmed by the metamask a notification of alert would be displayed 
+when the transaction is created that the transaction has been done successfully.
+![image](https://github.com/user-attachments/assets/92758ae2-68de-4d1a-b1bc-b0cf350235c3)
 
 Final Dashboard with the request to borrow money
 
